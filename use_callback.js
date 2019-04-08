@@ -15,8 +15,13 @@ MongoClient.connect(url).then(function(client){
 
             console.log('inserted document\n', result.ops);
 
-            return dboper.findDocuments(dbs, 'dishes');
+            return dboper.insertDocument(dbs,{"name":"prakhar","des":"padh"},'dishes');
         })
+        .then(function(result){
+            console.log('inserted document\n', result.ops);
+            return dboper.findDocuments(dbs,'dishes');
+        })
+
         .then(function(docs) {
             console.log("found document", docs);
 
