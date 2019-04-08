@@ -1,46 +1,39 @@
 const MongoClient=require('mongodb').MongoClient;
 const assert=require('assert');
+const dboper=require('./operation.js');
 
 const url='mongodb://localhost:27017/';
-
 const dbName='conFusion';
-
 
 MongoClient.connect(url,function(err,client){
     assert.equal(err,null);
 
     console.log('connected successfully');
+    const dbs=client.db(dbName);
+    dboper.insertDocument(dbs,{"name":"saurabh","age":14},'dishes',function(result){
 
-    const db=client.db(dbName);//db i have to access
-    const collection=db.collection('dishes')// collection i have to access
-    collection.insertOne({"name":"prakhar","description":"studious"},function(err,result){
-      assert.equal(err,null);
+        console.log('inserted document\n',result.ops);
 
+        dboper.findDocuments(dbs,'dishes',function(docs){
+            console.log("found document",docs);
 
-      console.log('after insert\n');
-      console.log(result.ops);
+            dboper.updateDocument(dbs,{"name":"saurabh"},{"age":18},'dishes',function(result) {
 
+                console.log("updated document", result.result);
 
-        collection.find({}).toArray(function(err,docs){
-            assert.equal(err,null);
+                dboper.findDocuments(dbs,'dishes',function(docs){
+                    console.log("found document",docs);
+                dbs.dropCollection('dishes', function (err, result) {
+                    assert.equal(err, null);
 
+                    console.log("everything is dropped");
 
-            console.log('found\n');
-            console.log(docs);
-
-            db.dropCollection('dishes',function(err,result){
-                assert.equal(err,null);
-
-
-                console.log('everything dropped');
-
-                client.close();
+                    client.close();
+                });
+            });
             });
         });
 
-
     });
-
-
 
 });

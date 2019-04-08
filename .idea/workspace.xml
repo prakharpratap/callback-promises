@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5c7bf3-45ea-4424-871b-459706c3e2b0" name="Default Changelist" comment="" />
+    <list default="true" id="0a5c7bf3-45ea-4424-871b-459706c3e2b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/callback_operation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use_callback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,17 +19,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/use_callback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.js">
+        <entry file="file://$PROJECT_DIR$/callback_operation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="119">
+              <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -35,13 +46,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/operation.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/index1.js" />
+        <option value="$PROJECT_DIR$/callback_operation.js" />
+        <option value="$PROJECT_DIR$/use_callback.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
+    <option name="x" value="1035" />
+    <option name="y" value="124" />
     <option name="width" value="984" />
     <option name="height" value="1035" />
   </component>
@@ -93,24 +109,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554631232329</updated>
-      <workItem from="1554631234968" duration="4461000" />
+      <workItem from="1554631234968" duration="12198000" />
+      <workItem from="1554692918955" duration="5541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4461000" />
+    <option name="totallyTimeSpent" value="17739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19475357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -118,6 +131,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46434495" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -127,9 +144,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -137,10 +151,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="204">
+          <caret line="33" column="15" lean-forward="true" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" lean-forward="true" selection-end-line="47" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/use_callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback_operation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
